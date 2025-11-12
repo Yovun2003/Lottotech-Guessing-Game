@@ -13,15 +13,15 @@ public class LottotechGuesstingGame {
         int matched=0;
         int guessed;
         int total;
+       
+        System.out.println("Number Guessing Game");
+    // This will save the 6 random numbers into an array
+        for(int i = 0; i <6; i++) {
+            randomNumbers[i] = rand.nextInt(1, 41); 
         //The first number is inclusive and the second ont is exlusive
         //We can also use Math.random for this question
         // double randomNumber= (Math.random()*10)+1;
         //         randomNumber= (int)randomNumber;
-
-        System.out.println("Number Guessing Game");
-    // This will save the 6 random numbers into an array
-        for(int i = 0; i <6; i++) {
-            randomNumbers[i] = rand.nextInt(1, 41);
 
         }
 
